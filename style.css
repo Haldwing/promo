@@ -1,0 +1,14 @@
+.heading{color: white; background-color: rgb(51, 51, 51); border-radius: 5px; width: 1100px; margin-left: 19px;}
+h1{text-align: center} h2{text-align: center}
+
+.container{display:grid; width: 1500px; height: 100vh; gap: 0; grid-template-columns: 400px 400px 400px 400px; 
+            grid-template-rows: 1fr 1fr 1fr 1fr ; background-color: white;}
+.sub-heading{background-color: rgb(51, 51, 51); color: rgb(250, 239, 239); border-radius: 10px;}
+img{max-height: 200px; } .bold{font-weight:800} .tiny{font-size: 0.9rem}
+.one{width: 300px; border: 20px solid white; grid-area: 1 1 4 2} 
+.two{width: 300px; border: 20px solid white; height: 400px; grid-area: 1 2 2 3 }
+.four{width: 300px; border: 20px solid white;  grid-area: 1 3 4 4}
+.three{width: 300px; border: 20px solid white; position: absolute; left: 408px; top: 420px}
+p{margin: 5px} h4{margin-left: 10px;}
+.desctextbox{padding: 5px;}
+html{font-family: 'Roboto Condensed', sans-serif;}
